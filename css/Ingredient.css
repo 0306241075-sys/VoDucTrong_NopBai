@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  gap: 85px;
+}
+.header {
+  display: flex;
+  max-width: max-content;
+  height: 198px;
+}
+.header-logo img {
+  width: 198px;
+  height: 198px;
+}
+.header-right {
+  background-color: #f1a4a4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 1440px;
+  height: 198px;
+}
+.header-right ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 50px;
+}
+.header-right ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-right ul li a:hover {
+  color: black;
+}
+div .save {
+  height: 40px;
+  display: flex;
+  justify-content: right;
+
+  align-items: center;
+  color: #000000;
+}
+div .save a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+.search-bar {
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  width: 600px;
+  height: 40px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  position: relative;
+}
+.search-input input {
+  width: 540px;
+  height: 36px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.input-right {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 20px;
+}
+
+div.label h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+}
+div.label h4 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+div.list-ingredient1,
+div.list-ingredient2 {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin: 40px 0;
+}
+div.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+div.ingredient-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+footer > div {
+  min-width: 200px;
+}
+div.footer-right ul li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

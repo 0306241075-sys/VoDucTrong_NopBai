@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+  background-color: #fcfbf2;
+  flex: content;
+}
+ul li a {
+  color: #000;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  width: 100%;
+}
+.mainleft {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 230px;
+  background: #243447;
+}
+
+.mainleft li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: #d9d9d9;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.mainleft li a i {
+  font-size: 20px;
+}
+
+.mainleft li a:hover {
+  background: #c9c9c9;
+}
+
+.mainleft li:last-child {
+  border-bottom: none;
+}
+div.container-main {
+  display: flex;
+  justify-content: space-between;
+}
+div.mainmid {
+  display: flex;
+}
+div.mainmid .box-container .box {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+main .mainright {
+  align-items: center;
+  margin-top: 100px;
+}
+div.mainmid .box-container .box:hover,
+main .mainright .box-container .box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
